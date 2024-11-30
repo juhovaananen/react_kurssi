@@ -1,0 +1,121 @@
+.header {
+  justify-content: center;
+}
+
+.header, .quantity, .product, .productpage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  max-width: 20%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.nav a:link {
+  text-decoration: none;
+  padding: 10px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.drink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.drink img, .search img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+img {
+  max-width: 20%;
+  margin-right: 0;
+}
+
+h1, h3 {
+  margin: 20px;
+}
+
+input {
+  padding: 7px;
+  border-radius: 5px;
+}
+
+table, td, th {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+table {
+  margin: 10px;
+  background-color: black;
+}
+
+th {
+  background-color: white;
+  padding: 10px;
+  
+}
+
+td {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+button {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #867b7b;
+  color: white;
+}
+
+p {
+  max-width: 300px;
+  margin: 10px;
+  text-align: justify;
+}
+
+select {
+  border: 5px solid black;
+  padding: 5px;
+}
+
+.component-container {
+  display: flex;            
+  justify-content: space-between;  
+  align-items: flex-start;   
+  gap: 20px;                 
+  margin: 20px;
+}
+
+.component-container > div {
+  flex: 1;    
+  justify-content: center;  
+  align-items: center;            
+  padding: 20px;
+  background-color: #e6e0e0; 
+  border: 1px solid #090909;
+  border-radius: 8px;
+  margin-left: 20px;
+}
